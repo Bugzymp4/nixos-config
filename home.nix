@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, inputs, ... }:
 
 {
   home.username = "bugzy";
@@ -33,12 +33,15 @@
     claude-code
     fastfetch
     neovim
+    cmatrix
+    cava
     ripgrep
     fd
     gcc
     lazygit
     grim
     slurp
+    appimage-run
   ];
 
   # ── Shell ─────────────────────────────────────────────────────────────────

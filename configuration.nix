@@ -65,8 +65,14 @@
     nerd-fonts.jetbrains-mono
   ];
 
+  # ── Nix settings ──────────────────────────────────────────────────────────
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
+
   # ── Programs ──────────────────────────────────────────────────────────────
   programs.hyprland.enable = true;
+
+  # ── iOS sideloading ───────────────────────────────────────────────────────
+  services.usbmuxd.enable = true;
 
   # ── Display Manager ───────────────────────────────────────────────────────
   services.greetd = {
