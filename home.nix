@@ -14,7 +14,8 @@
   home.packages = with pkgs; [
     firefox
     vscode
-    blender
+    discord
+blender
     obs-studio
     godot
     wl-clipboard
