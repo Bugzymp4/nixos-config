@@ -127,11 +127,11 @@
       margin-right = 12;
       spacing = 4;
 
-      modules-left = [ "hyprland/workspaces" ];
+      modules-left = [ "ext/workspaces" ];
       modules-center = [ "clock" ];
       modules-right = [ "cpu" "memory" "pulseaudio" "network" "battery" ];
 
-      "hyprland/workspaces" = {
+      "ext/workspaces" = {
         format = "{name}";
         on-click = "activate";
         sort-by-number = true;
