@@ -313,9 +313,6 @@
     exec-once=waybar
     exec-once=swaybg -i /home/bugzy/Pictures/wallpapers/nixos.png -m fill
 
-    env=XCURSOR_THEME,Bibata-Modern-Classic
-    env=XCURSOR_SIZE,24
-
     # Gaps
     gappih=5
     gappiv=5
@@ -343,6 +340,7 @@
     xkb_rules_layout=us
     sloppyfocus=1
     trackpad_natural_scrolling=0
+    cursor_theme=Bibata-Modern-Classic
     cursor_size=24
 
     bind=SUPER,r,reload_config
