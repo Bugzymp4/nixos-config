@@ -285,8 +285,8 @@
 
     # Borders
     borderpx=2
-    focuscolor=0xffffffff
-    bordercolor=0x262625ff
+    focuscolor=0xc8a96eff
+    bordercolor=0x7a5030ff
 
     # Decoration
     border_radius=5
